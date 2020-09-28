@@ -1,19 +1,15 @@
-import React from 'react'
-import './Button.css'
+import React from "react";
+import "./ButtonStyles.css";
 
-function Button({top, bottom}) {
+function Button({ top, bottom }) {
   return (
     <>
       <div className="button__container">
-        <span className="top">
-          {top}
-        </span>
-        <span className="bottom">
-          {bottom}
-        </span>
+        <span className="top">{top}</span>
+        <span className="bottom">{bottom}</span>
       </div>
     </>
-  )
+  );
 }
 
-export default Button
+export default Button;

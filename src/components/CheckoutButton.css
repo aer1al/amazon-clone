@@ -1,0 +1,13 @@
+.button__container {
+  color: #ffffff;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 9px;
+}
+
+.button__container:hover {
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+}
