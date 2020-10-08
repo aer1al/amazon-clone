@@ -7,7 +7,7 @@
   height: 60px;
 }
 
-.menu__container {
+.menu__iconContainer {
   cursor: pointer;
   margin: 10px 7px;
   padding: 10px 8px;
@@ -18,7 +18,7 @@
   border-radius: 3px;
 }
 
-.menu__container:hover {
+.menu__iconContainer:hover {
   border: 1px solid #ffffff;
 }
 
@@ -69,6 +69,7 @@
   width: 20px;
 }
 .checkout__container {
+  max-height: 52px;
   color: #ffffff;
   border: 1px solid transparent;
   cursor: pointer;
@@ -83,8 +84,14 @@
   border-radius: 3px;
 }
 
+.checkout__iconContainer {
+  position: relative;
+  top: 3px;
+}
+
 .checkout__text {
   position: relative;
-  top: 12px;
+  top: 15px;
   font-weight: 600;
+  padding-bottom: 20px;
 }
